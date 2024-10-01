@@ -1,3 +1,12 @@
+
+function getURLsFromHTML(htmlBody, baseURL) {
+     const urls = []
+     return urls 
+
+
+}
+
+
 function normalizeURL(urlString) {
     const urlObj = new URL(urlString)
     // return `${urlObj.hostname}${urlObj.pathname}`
@@ -13,5 +22,6 @@ function normalizeURL(urlString) {
 
 
 module.exports = {
-    normalizeURL
+    normalizeURL,
+    getURLsFromHTML
 }
